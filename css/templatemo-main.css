@@ -426,9 +426,13 @@ nav a:hover::before {
 	float: right;
 }
 
-.second-content .left-content {
-	padding: 60px;
+.second-content {
+	/* padding: 60px; */
 	text-align: left;
+}
+
+.left-content {
+	margin-right: 20px;
 }
 
 .second-content h2 {
@@ -468,6 +472,12 @@ nav a:hover::before {
 	color: #fff;
 	text-decoration: none;
 	transition: all 0.5s;
+}
+
+.second-content {
+	/* padding-left: 10px !important;
+	padding-top: 10px !important; */
+	padding: 10px !important;
 }
 
 
@@ -597,6 +607,10 @@ nav a:hover::before {
     top: 50%;
     left: 0;
     padding: 30px;
+}
+
+.hover-content{
+	text-align: center !important;
 }
 
 .fourth-content .item .hover-effect h2 {
@@ -817,9 +831,13 @@ nav a:hover::before {
 		margin-bottom: 15px;
 	}
 
-	.second-content .left-content {
+	.second-content {
 		padding: 30px;
 		text-align: left;
+	}
+
+	.left-content {
+		
 	}
 
 	.fourth-content .item .hover-effect h2 {
@@ -847,4 +865,26 @@ nav a:hover::before {
 	nav a {
 	  	padding: 15px 20px;
 	}
+}
+
+.work-btns {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.wrk-btn {
+	color: white;
+	margin: 10px;
+	font-size: 15px;
+	padding: 5px;
+	outline: 1px solid white;
+}
+
+.wrk-btn:hover {
+	color: white;
+	margin: 10px;
+	font-size: 15px;
+	padding: 5px;
+	outline: 1px solid white;
 }
