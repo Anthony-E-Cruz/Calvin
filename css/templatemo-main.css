@@ -193,8 +193,11 @@ nav .mini-logo {
 }
 
 nav .logo {
+	padding: 10px 20px;
+	margin:20px;
 	margin-top: 45px;
-	padding: 0px 20px;
+	background-color: rgb(63, 63, 63);
+	border-radius: 10px;
 }
 
 nav .logo img {
@@ -882,9 +885,11 @@ nav a:hover::before {
 }
 
 .wrk-btn:hover {
-	color: white;
+	color: black;
+	background-color: white;
 	margin: 10px;
 	font-size: 15px;
 	padding: 5px;
 	outline: 1px solid white;
+	text-decoration: none;
 }
