@@ -193,8 +193,11 @@ nav .mini-logo {
 }
 
 nav .logo {
+	padding: 10px 20px;
+	margin:20px;
 	margin-top: 45px;
-	padding: 0px 20px;
+	background-color: rgb(63, 63, 63);
+	border-radius: 10px;
 }
 
 nav .logo img {
@@ -836,9 +839,9 @@ nav a:hover::before {
 		text-align: left;
 	}
 
-	.left-content {
+	/* .left-content {
 		
-	}
+	} */
 
 	.fourth-content .item .hover-effect h2 {
 		font-size: 15px;
