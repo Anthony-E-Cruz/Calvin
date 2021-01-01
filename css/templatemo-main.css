@@ -882,9 +882,11 @@ nav a:hover::before {
 }
 
 .wrk-btn:hover {
-	color: white;
+	color: black;
+	background-color: white;
 	margin: 10px;
 	font-size: 15px;
 	padding: 5px;
 	outline: 1px solid white;
+	text-decoration: none;
 }
