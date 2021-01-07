@@ -196,8 +196,10 @@ nav .logo {
 	padding: 10px 20px;
 	margin:20px;
 	margin-top: 45px;
-	background-color: rgb(63, 63, 63);
-	border-radius: 10px;
+	background-color: rgb(63, 63, 63, .3);
+	border-radius: 15px;
+	/* opacity: 50%; */
+	/* background-opacity: 50%; */
 }
 
 nav .logo img {
@@ -892,4 +894,8 @@ nav a:hover::before {
 	padding: 5px;
 	outline: 1px solid white;
 	text-decoration: none;
+}
+
+.mini-logo-img {
+	height: 20px;
 }
